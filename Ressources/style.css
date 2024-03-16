@@ -1,0 +1,185 @@
+* {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    
+    
+ }
+
+ section {
+   
+    margin-top: 70px;
+    
+}
+
+ header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    position: absolute;
+    right: 60px;
+}
+
+.nav-links a {
+    text-decoration: underline;
+    
+}
+
+#mission {
+
+    width: 1200px;
+    max-height: 700px;
+    position: relative;
+    margin: 0px auto;
+    top: 70px;
+    
+}
+
+#mission img {
+
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    padding: 0 0;
+    object-fit: cover;
+    
+}
+
+.text-block {
+
+   top: 280px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    align-items: center;
+}
+
+#featured {
+
+    width: 1200px;
+    height: 700px;
+    margin: 20px auto 0px;
+    position: relative;
+    top: 55px;
+}
+
+body {
+
+   opacity: 0,9;
+}
+
+
+
+.gallery img {
+
+    width: 300px;
+    height: 200px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 1200px;
+    margin: 0 auto;
+   top: 30px;
+  }
+
+  .shops {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    opacity: 1;
+    
+}
+
+#locations {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+   margin: 0px auto;
+}
+
+#locations img {
+   
+    width: 1200px;
+    height: 500px;
+   margin: 0px auto;
+}
+
+
+#shop_1 {
+    
+   left: 90px;
+  
+}
+
+#shop_2 {
+    
+    left: 430px;
+ }
+
+ #shop_3 {
+    
+    left: 770px;
+ }
+
+
+
+ #locations_h2 {
+    left: 540px;
+   top: 40px;
+    position: absolute;
+    margin: 15px auto;
+    background-color: transparent;
+    
+ }
+
+ .address {
+    
+   margin-top: 30px;
+ }
+
+ footer p {
+    
+    text-align: left;
+    margin-left: 20px;
+  }
+
+.container {
+   opacity: 0.9;
+}
+ 
+
+
+
